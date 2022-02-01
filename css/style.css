@@ -547,6 +547,9 @@ main .first-block .last-div .slider-docs .docs img {
   main .first-block .benifits .benifit {
     max-width: 25vw;
   }
+  main .first-block .last-div {
+    padding-bottom: 1vw;
+  }
   main .first-block .last-div .calc-prices {
     font-size: 2vw;
   }
@@ -554,8 +557,8 @@ main .first-block .last-div .slider-docs .docs img {
     color: #000;
   }
   main .first-block .last-div .calc-prices button {
-    width: 20vw;
-    height: 4vw;
+    width: 21vw;
+    height: 5vw;
     font-size: 1vw;
   }
   main .first-block .last-div .calc-prices button img {
