@@ -164,7 +164,7 @@ header .top-head button:hover {
 }
 header .top-head .contact .contact-phone {
   font-size: 1.2vw;
-  line-height: 2vw;
+  line-height: 2.5vw;
 }
 header .top-head .contact .contact-phone img {
   width: 1vw;
@@ -520,6 +520,73 @@ main .first-block .last-div .slider-docs .docs img {
   }
   100% {
     background-position-x: 150vw, 0;
+  }
+}
+@media (max-width: 1140px) {
+  header {
+    background-color: #fff;
+  }
+
+  main {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.5))), url("./../images/forma.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url("./../images/forma.png");
+    background-size: cover;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+  }
+  main .first-block {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 100%;
+    max-width: 75vw;
+    color: #e2e2e2;
+  }
+  main .first-block .benifits {
+    font-size: 1.5vw;
+  }
+  main .first-block .benifits .benifit {
+    max-width: 25vw;
+  }
+  main .first-block .last-div .calc-prices {
+    font-size: 2vw;
+  }
+  main .first-block .last-div .calc-prices .text b {
+    color: #000;
+  }
+  main .first-block .last-div .calc-prices button {
+    width: 20vw;
+    height: 4vw;
+    font-size: 1vw;
+  }
+  main .first-block .last-div .calc-prices button img {
+    height: 3vw;
+    width: 3vw;
+    margin-right: 2vw;
+  }
+  main .first-block .last-div .slider-docs {
+    font-size: 2.4vw;
+  }
+  main .first-block .last-div .slider-docs .docs {
+    max-width: 40vw;
+  }
+  main .first-block .last-div .slider-docs .docs .slider_item img {
+    width: 12vw;
+  }
+  main .first-block .last-div .slider-docs .docs .slick-arrow {
+    z-index: 6;
+  }
+
+  .popup {
+    max-width: 82vw;
+  }
+
+  .slick-prev {
+    left: -5.5vw !important;
+  }
+
+  .slick-prev::before, .slick-next::before {
+    font-size: 5vw !important;
+    z-index: 6;
   }
 }
 @media (max-width: 720px) {
